@@ -6,12 +6,12 @@
 <hr />
 <div class="container">
     <div class="row">
-        <form id="createRegistroForm" asp-action="Create" method="post" class="row g-3">
+        <form id="createRegistroForm" method="post">
             <div class="col-auto">
                 <input type="text" class="form-control" id="numeroDePlaca" name="numeroDePlaca" required placeholder="Número de Placa">
             </div>
             <div class="col-auto">
-                <button id="btnGuardar" type="button" class="btn btn-primary">
+                <button id="btnGuardar" type="submit" class="btn btn-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
                         <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                     </svg>
@@ -20,13 +20,16 @@
             </div>
         </form>
     </div>
-    <div class="row">
-        <div id="result" class="col-12 mt-3" style="display:none;">
+    @if (ViewBag.FechaHoraSalida != null && ViewBag.CostoTotal != null)
+    {
+        <div class="row">
+            <div id="result" class="col-sm-12 mt-3">
             <h3>Resultado:</h3>
-            <p class="small"><strong>Fecha y Hora de Salida:</strong> <span id="fechaHoraSalida"></span></p>
-            <p class="small"><strong>Costo Total:</strong> <span id="costoTotal"></span></p>
+            <p><strong>Fecha y Hora de Salida:</strong> @ViewBag.FechaHoraSalida</p>
+            <p><strong>Costo Total:</strong> @ViewBag.CostoTotal</p>
         </div>
-    </div>
+        </div>
+    }
     <div class="row">
         <div class="col-sm-3">
             <a asp-action="Index" class="btn btn-light">
@@ -41,26 +44,6 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
-            $('#btnGuardar').on('click', function () {
-                var numeroDePlaca = $('#numeroDePlaca').val();
-                if ($("#numeroDePlaca").val() != "") {
-                    $.ajax({
-                        url: '@Url.Action("CreateRegistroAsync", "Home")',
-                        type: 'POST',
-                        data: { numeroDePlaca: numeroDePlaca },
-                        success: function (response) {
-                            $('#fechaHoraSalida').text(response.FechaHoraSalida);
-                            $('#costoTotal').text(response.CostoTotal);
-                            $('#result').show();
-                        },
-                        error: function () {
-                            alert('Ocurrió un error al crear el registro.');
-                        }
-                    });
-                }
-                else
-                    alert('Campo vacío.');
-            });
             
             /*
             $("#btnGuardar").click(function (e) {

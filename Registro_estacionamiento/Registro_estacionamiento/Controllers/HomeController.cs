@@ -45,30 +45,46 @@ namespace Registro_estacionamiento.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(string numeroDePlaca)
         {
-            var registro = _registrosBR.GetVehiculoPlaca(numeroDePlaca);
-            if (registro == null) {
+            RegistrosModel registro = _registrosBR.GetVehiculoPlaca(numeroDePlaca);
+
+            double CostoEstacionamientoHora = _registrosBR.GetParametrosActivos("CostoEstacionamientoHora");
+            if (registro == null)
+            {
                 var vehiculo = new VehiculosModel { NumeroDePlaca = numeroDePlaca };
                 _vehiculosBR.AddVehiculo(vehiculo);
                 registro = new RegistrosModel
                 {
                     FechaHoraEntrada = DateTime.Now,
+                    CostoPorHora = CostoEstacionamientoHora,
                     VehiculoId = vehiculo.Id
                 };
 
                 _registrosBR.AddRegistro(registro);
+                return RedirectToAction("Index");
             }
             else
             {
-                registro.FechaHoraSalida = DateTime.Now.AddHours(1);
-                registro.CostoPorHora = 10;
-                registro.CostoTotal = 10 * 1;
+                registro.FechaHoraSalida = DateTime.Now;
+                var diferenciaHoras = (registro.FechaHoraSalida.HasValue ?
+                 (registro.FechaHoraSalida.Value - registro.FechaHoraEntrada).TotalHours : 0);
+                registro.CostoTotal = registro.CostoPorHora * diferenciaHoras;
                 _registrosBR.ActualizarRegistro(registro);
             }
 
-            return RedirectToAction("Index");
+
+            ViewBag.FechaHoraSalida = registro.FechaHoraSalida;
+            if (registro.CostoTotal.HasValue) { 
+                string costoTotalFormateado = registro.CostoTotal.Value.ToString("C2");
+                ViewBag.CostoTotal = costoTotalFormateado;
+            }
+            else{
+                ViewBag.CostoTotal = "Sin costo registrado";
+            }
+            return View();
         }
         [HttpPost]
-        public JsonResult CreateRegistroAsync(string numeroDePlaca)
+        [ValidateAntiForgeryToken]
+        public IActionResult CreateRegistroAsync(string numeroDePlaca)
         {
             RegistrosModel registro = _registrosBR.GetVehiculoPlaca(numeroDePlaca);
 
@@ -96,11 +112,10 @@ namespace Registro_estacionamiento.Controllers
                 _registrosBR.ActualizarRegistro(registro);
             }
 
-            return Json(new
-            {
-                fechaHoraSalida = registro.FechaHoraSalida,
-                costoTotal = registro.CostoTotal
-            });
+
+            ViewBag.FechaHoraSalida = registro.FechaHoraSalida;
+            ViewBag.CostoTotal = registro.CostoTotal;
+            return View();
         }
 
         public IActionResult Edit(int id)
