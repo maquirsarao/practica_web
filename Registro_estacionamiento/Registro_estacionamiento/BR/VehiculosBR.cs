@@ -22,15 +22,19 @@ namespace Registro_estacionamiento.BR
         {
             return _vehiculosDAO.GetVehiculoById(id);
         }
-
+        public VehiculosModel GetVehiculoPlaca(string numeroDePlaca)
+        {
+            return _vehiculosDAO.GetVehiculoPlaca(numeroDePlaca);
+        }
+        
         public void AddVehiculo(VehiculosModel vehiculo)
         {
             _vehiculosDAO.AddVehiculo(vehiculo);
         }
-        public void CrearVehiculo(VehiculosModel vehiculo)
+        public int CrearVehiculo(VehiculosModel vehiculo,RegistrosModel registros)
         {
             // Agrega cualquier lógica de negocio adicional aquí
-            _vehiculosDAO.AddVehiculo(vehiculo);
+           return _vehiculosDAO.agregarVehiculoyRegistro(vehiculo,registros);
         }
 
         public void ActualizarVehiculo(VehiculosModel vehiculo)

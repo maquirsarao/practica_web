@@ -19,7 +19,6 @@ namespace Registro_estacionamiento.Controllers
             _logger = logger;
             _vehiculosBR = vehiculosBR;
         }
-
         public IActionResult Index()
         {
             var registros = _registrosBR.ObtenerTodosLosRegistros();
@@ -46,20 +45,30 @@ namespace Registro_estacionamiento.Controllers
         public IActionResult Create(string numeroDePlaca)
         {
             RegistrosModel registro = _registrosBR.GetVehiculoPlaca(numeroDePlaca);
-
+            VehiculosModel vehiculo = _vehiculosBR.GetVehiculoPlaca(numeroDePlaca);
             double CostoEstacionamientoHora = _registrosBR.GetParametrosActivos("CostoEstacionamientoHora");
             if (registro == null)
             {
-                var vehiculo = new VehiculosModel { NumeroDePlaca = numeroDePlaca };
-                _vehiculosBR.AddVehiculo(vehiculo);
-                registro = new RegistrosModel
+                if (vehiculo == null)
                 {
-                    FechaHoraEntrada = DateTime.Now,
-                    CostoPorHora = CostoEstacionamientoHora,
-                    VehiculoId = vehiculo.Id
-                };
-
-                _registrosBR.AddRegistro(registro);
+                    vehiculo = new VehiculosModel { NumeroDePlaca = numeroDePlaca };
+                    registro = new RegistrosModel
+                    {
+                        FechaHoraEntrada = DateTime.Now,
+                        CostoPorHora = CostoEstacionamientoHora,
+                        VehiculoId = vehiculo.Id
+                    };
+                }
+                else
+                { 
+                    registro = new RegistrosModel
+                    {
+                        FechaHoraEntrada = DateTime.Now,
+                        CostoPorHora = CostoEstacionamientoHora,
+                        VehiculoId = vehiculo.Id
+                    };
+                }
+                int id=_vehiculosBR.CrearVehiculo(vehiculo, registro);
                 return RedirectToAction("Index");
             }
             else
@@ -145,22 +154,29 @@ namespace Registro_estacionamiento.Controllers
             return View(registro);
         }
 
-        public IActionResult Delete(int id)
+        public IActionResult CreateVehiculo()
         {
-            var registro = _registrosBR.ObtenerRegistroPorId(id);
-            if (registro == null)
-            {
-                return NotFound();
-            }
-            return View(registro);
+            return View();
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult CreateVehiculo(string numeroDePlaca)
         {
-            _registrosBR.EliminarRegistro(id);
-            return RedirectToAction(nameof(Index));
+                VehiculosModel existingVehiculo = _vehiculosBR.GetVehiculoPlaca(numeroDePlaca);
+                if (existingVehiculo != null)
+                {
+                    ViewBag.Error = numeroDePlaca+" Ya se encuentra registrado.";
+                    //ModelState.AddModelError("NumeroDePlaca", "El número de placa ya existe.");
+                    return View();
+                }
+                else { 
+                    existingVehiculo = new VehiculosModel();
+                    existingVehiculo.NumeroDePlaca = numeroDePlaca;
+                }
+                _vehiculosBR.AddVehiculo(existingVehiculo);
+                ViewBag.Message = "Vehículo creado correctamente.";
+                return View();
         }
     }
 }

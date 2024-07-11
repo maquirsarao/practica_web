@@ -1,5 +1,6 @@
 ﻿namespace Registro_estacionamiento
 {
+    using Microsoft.AspNetCore.Authentication.Cookies;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.DependencyInjection;
@@ -7,11 +8,18 @@
 
     public class Startup
     {
+
         public void ConfigureServices(IServiceCollection services)
         {
-            // Configuración de servicios
             services.AddControllersWithViews();
-            // Otros servicios como Entity Framework, servicios personalizados, etc.
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.LogoutPath = "/Account/Logout";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -26,11 +34,11 @@
                 app.UseHsts(); // Configuración de HSTS (opcional)
             }
 
-            app.UseHttpsRedirection(); // Redirecciona HTTP a HTTPS (opcional)
-            app.UseStaticFiles(); // Habilita el uso de archivos estáticos como CSS, JS, etc.
+            app.UseStaticFiles();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

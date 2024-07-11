@@ -36,5 +36,21 @@ namespace Registro_estacionamiento.Data
                 db.Execute(sql, param);
             }
         }
+
+        public T ExecuteStoredProcedure<T>(string storedProcedure, DynamicParameters parameters)
+        {
+            using (IDbConnection db = new SqlConnection(_connectionString))
+            {
+                return db.QuerySingle<T>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+            }
+        }
+
+        public void ExecuteStoredProcedure(string storedProcedure, DynamicParameters parameters)
+        {
+            using (IDbConnection db = new SqlConnection(_connectionString))
+            {
+                db.Execute(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+            }
+        }
     }
 }
