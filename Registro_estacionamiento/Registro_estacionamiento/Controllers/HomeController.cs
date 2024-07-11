@@ -1,9 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Win32;
 using Registro_estacionamiento.BR;
 using Registro_estacionamiento.Data;
 using Registro_estacionamiento.Models;
-using System.Diagnostics;
+using System.IO;
+using System.Collections.Generic;
+using System.Reflection.Metadata;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Element;
 
 namespace Registro_estacionamiento.Controllers
 {
@@ -178,5 +184,41 @@ namespace Registro_estacionamiento.Controllers
                 ViewBag.Message = "Vehículo creado correctamente.";
                 return View();
         }
+        /* [HttpPost]
+         public IActionResult ImprimirPDF()
+         {
+             //IEnumerable<RegistrosModel> registrosList = _registrosBR.ObtenerTodosLosRegistros();
+             //var registrosViewModel = MapearARegistroViewModel(registros.ToList()); 
+
+             byte[] pdfBytes;
+             using (MemoryStream ms = new MemoryStream())
+             {
+                 var writer = new PdfWriter(ms);
+                 var pdf = new PdfDocument(writer);
+                 var document = new Document(pdf);
+
+                 var table = new Table(3);
+                 table.AddHeaderCell("Núm. placa");
+                 table.AddHeaderCell("Tiempo estacionado (min.)");
+                 table.AddHeaderCell("Cantidad a pagar");
+
+                 foreach (var registro in registrosList.ToList())
+                 {
+                     table.AddCell(registro.NumeroDePlaca);
+                     table.AddCell(registro.TiempoEstacionadoMinutos.ToString());
+                     table.AddCell(registro.CantidadAPagar.ToString("C"));
+                 }
+
+                 document.Add(table);
+                 document.Close();
+
+                 // Convertir el documento PDF a bytes
+                 pdfBytes = ms.ToArray();
+             }
+
+             // Devolver el archivo PDF como descarga
+             return File(pdfBytes, "application/pdf", "lista_registros.pdf");
+
+         }*/
     }
 }

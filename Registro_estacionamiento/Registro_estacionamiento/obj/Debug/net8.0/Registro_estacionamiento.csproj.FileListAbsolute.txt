@@ -167,3 +167,17 @@ C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\obj\Debu
 C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\obj\Debug\net8.0\Registro_estacionamiento.pdb
 C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\obj\Debug\net8.0\Registro_estacionamiento.genruntimeconfig.cache
 C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\obj\Debug\net8.0\ref\Registro_estacionamiento.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.barcodes.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.forms.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.io.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.kernel.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.layout.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.pdfa.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.pdfua.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.sign.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.svg.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\itext.commons.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Codigo\practicaweb\Registro_estacionamiento\Registro_estacionamiento\bin\Debug\net8.0\Newtonsoft.Json.dll
