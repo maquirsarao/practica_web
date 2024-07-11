@@ -81,7 +81,7 @@ namespace Registro_estacionamiento.Controllers
             {
                 registro.FechaHoraSalida = DateTime.Now;
                 var diferenciaHoras = (registro.FechaHoraSalida.HasValue ?
-                 (registro.FechaHoraSalida.Value - registro.FechaHoraEntrada).TotalHours : 0);
+                 (registro.FechaHoraSalida.Value - registro.FechaHoraEntrada).TotalMinutes : 0);
                 registro.CostoTotal = registro.CostoPorHora * diferenciaHoras;
                 _registrosBR.ActualizarRegistro(registro);
             }

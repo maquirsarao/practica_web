@@ -16,10 +16,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Usuarios/Logout";
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     });
-builder.Services.AddControllersWithViews(options =>
+/*builder.Services.AddControllersWithViews(options =>
 {
     options.Filters.Add(typeof(VerificarAutenticacionAttribute));
-});
+});*/
 builder.Services.AddControllers();
 builder.Services.AddTransient<DbConnectionFactory>();
 builder.Services.AddTransient<DataAccess>();
