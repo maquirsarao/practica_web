@@ -10,8 +10,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<DbConnectionFactory>();
+builder.Services.AddTransient<DataAccess>();
 builder.Services.AddTransient<VehiculosDAO>();
 builder.Services.AddTransient<RegistrosDAO>();
+builder.Services.AddTransient<ParametrosDAO>();
 builder.Services.AddTransient<VehiculosBR>();
 builder.Services.AddTransient<RegistrosBR>();
 
@@ -25,11 +27,8 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
+app.UseHttpsRedirection();
+app.UseRouting(); 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

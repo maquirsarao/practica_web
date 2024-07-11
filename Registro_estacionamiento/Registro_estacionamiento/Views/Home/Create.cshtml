@@ -6,19 +6,26 @@
 <hr />
 <div class="container">
     <div class="row">
-            <form asp-action="Create" method="post" class="row g-3">
-                <div class="col-auto">
-                    <input type="text" class="form-control" id="numeroDePlaca" name="numeroDePlaca" required placeholder="Número de Placa">
-                </div>
-                <div class="col-auto">
-                <button type="submit" class="btn btn-primary">
+        <form id="createRegistroForm" asp-action="Create" method="post" class="row g-3">
+            <div class="col-auto">
+                <input type="text" class="form-control" id="numeroDePlaca" name="numeroDePlaca" required placeholder="Número de Placa">
+            </div>
+            <div class="col-auto">
+                <button id="btnGuardar" type="button" class="btn btn-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
                         <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                     </svg>
                     Guardar
                 </button>
-                </div>
-            </form>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div id="result" class="col-12 mt-3" style="display:none;">
+            <h3>Resultado:</h3>
+            <p class="small"><strong>Fecha y Hora de Salida:</strong> <span id="fechaHoraSalida"></span></p>
+            <p class="small"><strong>Costo Total:</strong> <span id="costoTotal"></span></p>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-3">
@@ -31,3 +38,48 @@
         </div>
     </div>
 </div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#btnGuardar').on('click', function () {
+                var numeroDePlaca = $('#numeroDePlaca').val();
+                if ($("#numeroDePlaca").val() != "") {
+                    $.ajax({
+                        url: '@Url.Action("CreateRegistroAsync", "Home")',
+                        type: 'POST',
+                        data: { numeroDePlaca: numeroDePlaca },
+                        success: function (response) {
+                            $('#fechaHoraSalida').text(response.FechaHoraSalida);
+                            $('#costoTotal').text(response.CostoTotal);
+                            $('#result').show();
+                        },
+                        error: function () {
+                            alert('Ocurrió un error al crear el registro.');
+                        }
+                    });
+                }
+                else
+                    alert('Campo vacío.');
+            });
+            
+            /*
+            $("#btnGuardar").click(function (e) {
+                var numeroDePlaca = $('#numeroDePlaca').val();
+                if ($("#numeroDePlaca").val() != "") {
+                    var credenciales = "{'numeroDePlaca': '" + $("#numeroDePlaca").val() + "'}"
+                    requestJsonService("@Url.Action("IniciarSesion", "Home")", "POST", credenciales, function (response) function (response) {
+                        if (response.Exito) {
+                            swal("Ocurrió un error", " Fecha de Salida:" + response.fechaHoraSalida + " Costo total: $" + response.costoTotal, "success")
+                        } else {
+                            swal("Ocurrió un error", response.Mensaje, "error")
+                        }
+
+                    });
+                }
+                else {
+                    swal("Ocurrió un error", "campo placa vacío", "error")
+                }
+            });*/
+        });
+    </script>
+}

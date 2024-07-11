@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Win32;
 using Registro_estacionamiento.BR;
+using Registro_estacionamiento.Data;
 using Registro_estacionamiento.Models;
 using System.Diagnostics;
 
@@ -65,6 +66,41 @@ namespace Registro_estacionamiento.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public JsonResult CreateRegistroAsync(string numeroDePlaca)
+        {
+            RegistrosModel registro = _registrosBR.GetVehiculoPlaca(numeroDePlaca);
+
+            double CostoEstacionamientoHora = 0.5f;
+            CostoEstacionamientoHora=_registrosBR.GetParametrosActivos("CostoEstacionamientoHora");
+            if (registro == null)
+            {
+                var vehiculo = new VehiculosModel { NumeroDePlaca = numeroDePlaca };
+                _vehiculosBR.AddVehiculo(vehiculo);
+                registro = new RegistrosModel
+                {
+                    FechaHoraEntrada = DateTime.Now,
+                    CostoPorHora = CostoEstacionamientoHora,
+                    VehiculoId = vehiculo.Id
+                };
+
+                _registrosBR.AddRegistro(registro);
+            }
+            else
+            {
+                registro.FechaHoraSalida = DateTime.Now.AddHours(1);
+                var diferenciaHoras = (registro.FechaHoraSalida.HasValue ?
+                 (registro.FechaHoraSalida.Value - registro.FechaHoraEntrada).TotalHours : 0);
+                registro.CostoTotal = registro.CostoPorHora * diferenciaHoras;
+                _registrosBR.ActualizarRegistro(registro);
+            }
+
+            return Json(new
+            {
+                fechaHoraSalida = registro.FechaHoraSalida,
+                costoTotal = registro.CostoTotal
+            });
         }
 
         public IActionResult Edit(int id)

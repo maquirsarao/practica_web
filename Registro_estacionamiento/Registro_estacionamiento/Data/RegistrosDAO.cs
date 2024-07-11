@@ -10,11 +10,13 @@ namespace Registro_estacionamiento.Data
     {
         private readonly ApplicationDbContext _context;
         private readonly DbConnectionFactory _connectionFactory;
+        private readonly DataAccess _dataAccess;
 
-        public RegistrosDAO(ApplicationDbContext context, DbConnectionFactory connectionFactory)
+        public RegistrosDAO(ApplicationDbContext context, DbConnectionFactory connectionFactory, DataAccess dataAccess)
         {
             _context = context;
             _connectionFactory = connectionFactory;
+            _dataAccess = dataAccess;
         }
 
         public IEnumerable<RegistrosModel> GetAllRegistros()

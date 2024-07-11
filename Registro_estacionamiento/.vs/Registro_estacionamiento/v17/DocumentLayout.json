@@ -3,52 +3,88 @@
   "WorkspaceRootPath": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\models\\registrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\models\\registrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\registrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\registrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\br\\registrosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\br\\registrosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\registrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\registrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\models\\registrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\models\\registrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\br\\vehiculosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\br\\vehiculosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\parametrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\parametrosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\models\\parametrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\models\\parametrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\vehiculosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\vehiculosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\br\\vehiculosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\br\\vehiculosbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|c:\\codigo\\practicaweb\\registro_estacionamiento\\registro_estacionamiento\\models\\vehiculosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D53F0F4-1B61-43B3-B0C4-79C8CFD31082}|Registro_estacionamiento\\Registro_estacionamiento.csproj|solutionrelative:registro_estacionamiento\\models\\vehiculosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,13 +110,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Registro_estacionamiento\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T17:18:45.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Registro_estacionamiento\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T17:18:35.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T21:02:59.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Registro_estacionamiento\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAcAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T04:54:25.601Z",
               "EditorCaption": ""
@@ -92,32 +163,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T20:48:32.75Z",
+              "Title": "RegistrosDAO.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\RegistrosDAO.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\RegistrosDAO.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\RegistrosDAO.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Data\\RegistrosDAO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:50:54.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAtwEUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:59:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Registro_estacionamiento\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T17:18:57.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ParametrosDAO.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\ParametrosDAO.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\ParametrosDAO.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\ParametrosDAO.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Data\\ParametrosDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:57:29.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Program.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Program.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Program.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:47:55.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Registro_estacionamiento\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T17:19:01.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParametrosModel.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\ParametrosModel.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Models\\ParametrosModel.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\ParametrosModel.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Models\\ParametrosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:55:38.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VehiculosDAO.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\VehiculosDAO.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\VehiculosDAO.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\VehiculosDAO.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Data\\VehiculosDAO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:49:30.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\DataAccess.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\DataAccess.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Data\\DataAccess.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:54:35.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "jquery.validate.unobtrusive.js",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeToolTip": "Registro_estacionamiento\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ViewState": "AQIAAIYBAAAAAAAAAAAAAJMBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T16:34:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "RegistrosModel.cs",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\RegistrosModel.cs",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\Models\\RegistrosModel.cs",
               "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\RegistrosModel.cs",
               "RelativeToolTip": "Registro_estacionamiento\\Models\\RegistrosModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:45:13.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "RegistrosBR.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\BR\\RegistrosBR.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\BR\\RegistrosBR.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\BR\\RegistrosBR.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\BR\\RegistrosBR.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAtwDMAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T19:45:07.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Registro_estacionamiento\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:55:21.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T21:03:44.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "VehiculosBR.cs",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\BR\\VehiculosBR.cs",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\BR\\VehiculosBR.cs",
@@ -130,85 +357,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAjwD8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:59:01.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAIAAAA",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:03:44.409Z",
+              "WhenOpened": "2024-07-10T20:48:32.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Views\\Home\\Create.cshtml",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "Registro_estacionamiento\\Views\\Home\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T21:02:59.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VehiculosDAO.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\VehiculosDAO.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\VehiculosDAO.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\VehiculosDAO.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\Data\\VehiculosDAO.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAjwBwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:49:30.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegistrosDAO.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\RegistrosDAO.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\RegistrosDAO.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\RegistrosDAO.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\Data\\RegistrosDAO.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAjwC0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:50:54.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegistrosBR.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\BR\\RegistrosBR.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\BR\\RegistrosBR.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\BR\\RegistrosBR.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\BR\\RegistrosBR.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAjwCgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:45:07.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\appsettings.json",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\appsettings.json",
@@ -221,20 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Program.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Program.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Program.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:47:55.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "DbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\DbConnectionFactory.cs",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\DbConnectionFactory.cs",
@@ -247,20 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VehiculosModel.cs",
-              "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\VehiculosModel.cs",
-              "RelativeDocumentMoniker": "Registro_estacionamiento\\Models\\VehiculosModel.cs",
-              "ToolTip": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Models\\VehiculosModel.cs",
-              "RelativeToolTip": "Registro_estacionamiento\\Models\\VehiculosModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:45:18.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Codigo\\practicaweb\\Registro_estacionamiento\\Registro_estacionamiento\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Registro_estacionamiento\\Data\\ApplicationDbContext.cs",
